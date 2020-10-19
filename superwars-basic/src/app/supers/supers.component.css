@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+  grid-template-columns: 320px 100px 420px;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.item1,
+.item3 {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  height: 200px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.item2 {
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+.item3 {
+  margin-right: 100px;
+}
+
+.item1-img,
+.item3-img {
+  border: 1px solid grey;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 3.2em;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
